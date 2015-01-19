@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3CEDCAAC-AB51-47CF-A1E6-F6E1055E134E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>IntorductiontoAlgorithms</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bellman_ford.h" />
+    <ClInclude Include="deapth_first_search.h" />
+    <ClInclude Include="dijkstra.h" />
+    <ClInclude Include="disjoint_set_forest.h" />
+    <ClInclude Include="fibonacci_heap.h" />
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="graphviz_shower.h" />
+    <ClInclude Include="priority_queue.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="assemble_dispatch.cpp" />
+    <ClCompile Include="bellman_ford.cpp" />
+    <ClCompile Include="best_binary_search_tree.cpp" />
+    <ClCompile Include="breadth_first_search.cpp" />
+    <ClCompile Include="binary_search_tree.cpp" />
+    <ClCompile Include="binomial_heaps.cpp" />
+    <ClCompile Include="bitonic_tour.cpp" />
+    <ClCompile Include="B_tree.cpp" />
+    <ClCompile Include="deapth_first_search.cpp" />
+    <ClCompile Include="dijkstra.cpp" />
+    <ClCompile Include="disjoint_set_forest.cpp" />
+    <ClCompile Include="fibonacci_heap.cpp" />
+    <ClCompile Include="floyd_warshall.cpp" />
+    <ClCompile Include="ford_fulkerson.cpp" />
+    <ClCompile Include="graphviz_shower.cpp" />
+    <ClCompile Include="huffman_code.cpp" />
+    <ClCompile Include="johnson.cpp" />
+    <ClCompile Include="kruskal.cpp" />
+    <ClCompile Include="computational_geometry.cpp" />
+    <ClCompile Include="longest_common_subsequence.cpp" />
+    <ClCompile Include="hash_table.cpp" />
+    <ClCompile Include="heap_sort.cpp" />
+    <ClCompile Include="intorduction_to_algorithms.cpp" />
+    <ClCompile Include="linear_sort.cpp" />
+    <ClCompile Include="matrix_list_multiply.cpp" />
+    <ClCompile Include="neatly_print.cpp" />
+    <ClCompile Include="nth_element.cpp" />
+    <ClCompile Include="plan_party.cpp" />
+    <ClCompile Include="prim.cpp" />
+    <ClCompile Include="quick_sort.cpp" />
+    <ClCompile Include="red_black_tree.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="string_match.cpp" />
+    <ClCompile Include="strongly_connected_component.cpp" />
+    <ClCompile Include="topological_sort.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

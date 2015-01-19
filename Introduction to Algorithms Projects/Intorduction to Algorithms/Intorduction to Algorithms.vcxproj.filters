@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Chapter15">
+      <UniqueIdentifier>{b5520f27-5746-49da-8012-6aa7d787f811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter11">
+      <UniqueIdentifier>{769f6a87-2471-406d-908f-34e074d2016d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter12">
+      <UniqueIdentifier>{fd4b45b3-0fee-4891-a457-b81bc3f7769d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter13">
+      <UniqueIdentifier>{3d276951-d400-48ce-b355-852d6da96b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter16">
+      <UniqueIdentifier>{04c92f2b-db5f-4785-b6cc-63c199c12161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter18">
+      <UniqueIdentifier>{4ea53258-cd19-457c-933e-cc87bb57c796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{63d7bf8f-e5b8-456e-876a-7f3362041f62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter21">
+      <UniqueIdentifier>{85455e6f-eeb2-42da-bbb5-e2e180bdae7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter19">
+      <UniqueIdentifier>{00fcd5cd-3054-4283-9b63-35b51f11878f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter22">
+      <UniqueIdentifier>{c934f5c2-689d-4373-a584-be70526c7bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter23">
+      <UniqueIdentifier>{3aea6264-7bb3-4da5-ba04-761ae6fcab06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter24">
+      <UniqueIdentifier>{f604a8de-ec83-41f4-9912-36689e811ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter25">
+      <UniqueIdentifier>{2bbfb332-8e34-4803-9b5f-18ef27adae88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter26">
+      <UniqueIdentifier>{8e9f3f06-8dcb-414a-9a04-587b3439c43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter20">
+      <UniqueIdentifier>{4d09b3c4-0afc-4e54-abb6-5b691225c31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter06">
+      <UniqueIdentifier>{0584a131-d678-4a3b-943e-dbea4d7f37be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter07">
+      <UniqueIdentifier>{a6fa2746-29a7-4c70-852b-1e338d9098ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter08">
+      <UniqueIdentifier>{b8b8d1d2-a687-4adb-aa3b-71e6f2e9ad8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter09">
+      <UniqueIdentifier>{0af3fa6b-cdfd-4322-a0f7-d27045280da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter32">
+      <UniqueIdentifier>{45023ab9-daca-42eb-bd10-e9a4ed4b2ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chapter33">
+      <UniqueIdentifier>{04274c32-bb2f-4bcf-82b0-e68ca5772fa0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graphviz_shower.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Chapter22</Filter>
+    </ClInclude>
+    <ClInclude Include="disjoint_set_forest.h">
+      <Filter>Chapter21</Filter>
+    </ClInclude>
+    <ClInclude Include="bellman_ford.h">
+      <Filter>Chapter24</Filter>
+    </ClInclude>
+    <ClInclude Include="fibonacci_heap.h">
+      <Filter>Chapter20</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue.h">
+      <Filter>Chapter06</Filter>
+    </ClInclude>
+    <ClInclude Include="deapth_first_search.h">
+      <Filter>Chapter22</Filter>
+    </ClInclude>
+    <ClInclude Include="dijkstra.h">
+      <Filter>Chapter24</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="quick_sort.cpp">
+      <Filter>Chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="heap_sort.cpp">
+      <Filter>Chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_sort.cpp">
+      <Filter>Chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="nth_element.cpp">
+      <Filter>Chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="hash_table.cpp">
+      <Filter>Chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search_tree.cpp">
+      <Filter>Chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="red_black_tree.cpp">
+      <Filter>Chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="assemble_dispatch.cpp">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_list_multiply.cpp">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="longest_common_subsequence.cpp">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="best_binary_search_tree.cpp">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="neatly_print.cpp">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="plan_party.cpp">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="bitonic_tour.cpp">
+      <Filter>Chapter15</Filter>
+    </ClCompile>
+    <ClCompile Include="huffman_code.cpp">
+      <Filter>Chapter16</Filter>
+    </ClCompile>
+    <ClCompile Include="B_tree.cpp">
+      <Filter>Chapter18</Filter>
+    </ClCompile>
+    <ClCompile Include="graphviz_shower.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="disjoint_set_forest.cpp">
+      <Filter>Chapter21</Filter>
+    </ClCompile>
+    <ClCompile Include="strongly_connected_component.cpp">
+      <Filter>Chapter22</Filter>
+    </ClCompile>
+    <ClCompile Include="topological_sort.cpp">
+      <Filter>Chapter22</Filter>
+    </ClCompile>
+    <ClCompile Include="kruskal.cpp">
+      <Filter>Chapter23</Filter>
+    </ClCompile>
+    <ClCompile Include="prim.cpp">
+      <Filter>Chapter23</Filter>
+    </ClCompile>
+    <ClCompile Include="bellman_ford.cpp">
+      <Filter>Chapter24</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra.cpp">
+      <Filter>Chapter24</Filter>
+    </ClCompile>
+    <ClCompile Include="floyd_warshall.cpp">
+      <Filter>Chapter25</Filter>
+    </ClCompile>
+    <ClCompile Include="johnson.cpp">
+      <Filter>Chapter25</Filter>
+    </ClCompile>
+    <ClCompile Include="ford_fulkerson.cpp">
+      <Filter>Chapter26</Filter>
+    </ClCompile>
+    <ClCompile Include="fibonacci_heap.cpp">
+      <Filter>Chapter20</Filter>
+    </ClCompile>
+    <ClCompile Include="binomial_heaps.cpp">
+      <Filter>Chapter19</Filter>
+    </ClCompile>
+    <ClCompile Include="breadth_first_search.cpp">
+      <Filter>Chapter22</Filter>
+    </ClCompile>
+    <ClCompile Include="deapth_first_search.cpp">
+      <Filter>Chapter22</Filter>
+    </ClCompile>
+    <ClCompile Include="intorduction_to_algorithms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="string_match.cpp">
+      <Filter>Chapter32</Filter>
+    </ClCompile>
+    <ClCompile Include="computational_geometry.cpp">
+      <Filter>Chapter33</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
